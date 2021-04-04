@@ -91,7 +91,7 @@ buyBtn.addEventListener('click',() => {
     const address = document.querySelector("#address");
     const checkCart = cartItems.childNodes.length > 0; //to check if cart is empty
 
-    if(address !== '' && checkCart){
+    if(address.value !== '' && checkCart){
         fetch("http://localhost:3001/buy",{
             method:"POST",
             body:JSON.stringify({
