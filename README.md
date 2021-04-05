@@ -21,6 +21,6 @@ Customer can:
   <li>View product detail (don't have permission  as much as admin)  
   <li>View list of own orders
   <li>Add product to shopping cart
-  <li>Buy for product in the shopping cart
+  <li>Buy for products in the shopping cart
 </ol>
 </div>
